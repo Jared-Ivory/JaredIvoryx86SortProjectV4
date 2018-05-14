@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <Object Include="checkAndTime.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cse222macV4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JaredIvoryX86SortProjectV4.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{46079ADB-610B-4CCB-9874-A4F179E926F9}</ProjectGuid>
@@ -114,8 +123,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
